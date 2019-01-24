@@ -20,6 +20,6 @@ pymongo
 ```
 <b>Todo :</b>
 - Prettify the output being saved into output.txt
-- Add argparse for file path
+- Add argparse for cidr list file path
 - Add argparse for single network scan , for example : "192.168.0.1/24"
 - Add logic so the script will know how to choose a network to scan - from file or from argparse
