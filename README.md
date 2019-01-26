@@ -11,6 +11,9 @@ usage : mongol.py -l -o
 ```
   [-l] [-log] - logs exceptions into log.txt file
   [-o] [--output] - outputs successful enumerations into a file
+  [-f] [--file] - specify file path to scan multiple networks
+  [-net] [--network] - specify a single network to scan
+  [-v] [--verbose] - prints exceptions to terminal
 ```
 
 <b>Requirements:</b>
@@ -20,6 +23,7 @@ pymongo
 ```
 <b>Todo :</b>
 - Prettify the output being saved into output.txt
-- Add argparse for cidr list file path
-- Add argparse for single network scan , for example : "192.168.0.1/24"
-- Add logic so the script will know how to choose a network to scan - from file or from argparse
+- implement a better design for checking what arguements were passed to scan
+- <s>Add argparse for cidr list file path</s>
+- <s>Add argparse for single network scan , for example : "192.168.0.1/24"</s>
+- <s>Add logic so the script will know how to choose a network to scan - from file or from argparse</s>
